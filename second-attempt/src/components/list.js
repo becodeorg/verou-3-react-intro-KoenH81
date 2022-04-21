@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 function List() {
-
+    const initialTodos = ["My first todo", "My second todo"];
+    const [todos, setTodos] = useState(initialTodos);
 
 
     return (
